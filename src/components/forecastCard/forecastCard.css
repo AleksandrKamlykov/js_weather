@@ -1,0 +1,15 @@
+.card-wrapper{
+    flex: 1
+}
+.card-item{
+    background-color: var(--light);
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+.weather-icon{
+    width:100%;
+    display: block;
+    background-color: var(--primary-color);
+    border-radius: var(--border-redius-block);
+
+}

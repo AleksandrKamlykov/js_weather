@@ -1,0 +1,50 @@
+
+.current-weather-layout {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.current-layout-img{
+    background-color: var(--primary-color);
+    border-radius: var(--border-redius-block);
+}
+.weather-img {
+    margin: auto;
+    display: block;
+
+}
+.weather-description{
+    color: var(--light);
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+    top:-20px;
+}
+
+.current-degree{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.current-real-feel{
+    font-size: .9rem;
+    color: var(--light-grey);
+    text-align: center;
+}
+
+.sun-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+.sun-info-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.sun-info-child{
+    color: var(--light-grey);
+}

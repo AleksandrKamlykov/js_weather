@@ -1,0 +1,5 @@
+.forecast-wrapper{
+    display: flex;
+    gap:2px;
+    margin: 20px 0 30px;
+}

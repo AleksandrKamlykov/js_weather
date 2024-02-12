@@ -1,0 +1,22 @@
+.hourly-wrapper{
+    width: 100%;
+}
+
+.hourly-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    width: 100%;
+}
+
+th{
+    background-color: var(--primary-color);
+    color: #EEEEEE;
+    padding: 10px 20px;
+}
+.hourly-cell{
+    text-align: center;
+    padding: 10px 15px;
+}
